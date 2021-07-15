@@ -41,10 +41,10 @@ export const jsConfig = () => {
       mermaid: './src/mermaid.js'
     },
     resolve: {
-      extensions: ['.wasm', '.mjs', '.js', '.json', '.jison']
-    },
-    node: {
-      fs: 'empty' // jison generated code requires 'fs'
+      extensions: ['.wasm', '.mjs', '.js', '.json', '.jison'],
+      fallback: {
+        fs: false
+      }
     },
     output: {
       path: path.join(__dirname, './dist/'),
