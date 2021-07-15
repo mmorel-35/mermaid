@@ -38,10 +38,7 @@ module.exports = {
     'bundle-test': './cypress/platform/bundle-test.js'
   },
   resolve: {
-    extensions: ['.wasm', '.mjs', '.js', '.json', '.jison'],
-    fallback: {
-      fileSystem: false
-    }
+    extensions: ['.wasm', '.mjs', '.js', '.json', '.jison']
   },
   output: {
     path: path.join(__dirname, './dist/'),
