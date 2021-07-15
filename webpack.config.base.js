@@ -41,10 +41,7 @@ export const jsConfig = () => {
       mermaid: './src/mermaid.js'
     },
     resolve: {
-      extensions: ['.wasm', '.mjs', '.js', '.json', '.jison'],
-      fallback: {
-        fileSystem: false
-      }
+      extensions: ['.wasm', '.mjs', '.js', '.json', '.jison']
     },
     output: {
       path: path.join(__dirname, './dist/'),
