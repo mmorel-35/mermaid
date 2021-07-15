@@ -40,7 +40,7 @@ module.exports = {
   resolve: {
     extensions: ['.wasm', '.mjs', '.js', '.json', '.jison'],
     fallback: {
-      fs: false
+      fileSystem: false
     }
   },
   output: {
