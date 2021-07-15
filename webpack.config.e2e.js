@@ -37,6 +37,9 @@ module.exports = {
     e2e: './cypress/platform/viewer.js',
     'bundle-test': './cypress/platform/bundle-test.js'
   },
+  browser: {
+    fs: false
+  },
   resolve: {
     extensions: ['.wasm', '.mjs', '.js', '.json', '.jison']
   },
