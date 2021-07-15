@@ -30,6 +30,9 @@
     "prepublishOnly": "yarn build && yarn test",
     "prepare": "yarn build"
   },
+  "browser": {
+    "fs": false
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/knsv/mermaid"
