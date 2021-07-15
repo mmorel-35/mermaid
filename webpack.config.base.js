@@ -40,9 +40,6 @@ export const jsConfig = () => {
     entry: {
       mermaid: './src/mermaid.js'
     },
-    browser: {
-      fs: false
-    },
     resolve: {
       extensions: ['.wasm', '.mjs', '.js', '.json', '.jison']
     },
