@@ -54,7 +54,6 @@ export const jsConfig = () => {
     module: {
       rules: [amdRule, jsRule, scssRule, jisonRule]
     },
-    // plugins: [new BundleAnalyzerPlugin()],
     devtool: 'source-map'
   };
 };
